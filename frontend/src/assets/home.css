@@ -1,0 +1,77 @@
+.navbar h3{
+    color: #633b3d;
+    font-size: 30px;
+    width: fit-content;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    color: #b24e55;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    left: 17rem;
+}
+.navbar button{
+    position: relative;
+    left: 25rem;
+    margin-left: 2rem;
+    background-color:  #ff6b81;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(255, 107, 129, 0.4), 0 6px 20px 0 rgba(255, 107, 129, 0.4);
+}
+.login{
+    background-color: #fff !important;
+    color: #000 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.home h1{
+    color: #403334;
+    text-align: center;
+    font-size: 55px;
+    position: relative;
+    top: 20px;
+}
+.home span{
+    font-family: 'Instrument Serif',sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #b24e55;
+}
+.home p{
+    font-size: 18px;
+    color: #4a3d55;
+    font-weight: 300;
+    text-align: center;
+}
+.buttons button{
+    border: none;
+    padding: 10px;
+    margin-right: 40px;
+    position: relative;
+    left: 36%;
+    top: 15px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.cta1{
+    background-color: #ff6b81;
+    color: #fff;
+    border: none !important;
+    box-shadow: 
+  0 4px 8px rgba(0, 0, 0, 0.25),
+  0 10px 24px rgba(255, 107, 129, 0.6);
+
+}
+.cta2{
+    border: none !important;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
