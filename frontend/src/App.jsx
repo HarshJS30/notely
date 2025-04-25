@@ -1,4 +1,4 @@
-import Features from "./Pages/FEatures";
+import {Features} from "./Pages/Features";
 import { Home } from "./Pages/Home";
 
 function App(){
