@@ -2,6 +2,7 @@ import fe1 from '../assets/fea1.png';
 import fe2 from '../assets/fea2.png';
 import { AiFillEdit } from "react-icons/ai";
 import { MdDarkMode } from "react-icons/md";
+import '../assets/home.css';
 export function Features(){
     return(
         <div className="features">
