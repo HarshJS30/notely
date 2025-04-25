@@ -30,6 +30,9 @@
     color: #000 !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
+.home{
+    height: 91vh;
+}
 .home h1{
     color: #403334;
     text-align: center;
@@ -51,7 +54,7 @@
 }
 .buttons button{
     border: none;
-    padding: 10px;
+    padding: 15px;
     margin-right: 40px;
     position: relative;
     left: 36%;
@@ -74,4 +77,145 @@
     color: #000;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh !important;
+}
+.features h1{
+    position: relative;
+    right: 20px;
+    height: max-content;
+    padding: 6px 16px;
+    border-radius: 30px;
+    background-color: #ffe0e0;
+    color: #b26469;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+}
+.bento{
+    display: flex;
+    flex-direction: column;
+}
+.one,.two,.three,.four{
+    border-radius: 30px;
+    background-color: #d35c65;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.one{
+    width: 550px;
+    height: 400px;
+    position: relative;
+    right: 0px;
+    top: 50px;
+}
+.one h2{
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+}
+.one h5{
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+    font-family: 'Instrument serif', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.one p{
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+}
+.two{
+    width: 400px;
+    height: 190px;
+    position: relative;
+    top: -350px;
+    left: 580px;
+}
+.two h2,.three h2{
+    position: relative;
+    top: 5px;
+    left:  20px;
+    font-size: 25px;
+}
+.two h5,.three h5{
+    position: relative;
+    left: 20px;
+    top: -25px;
+    font-size: 18px;
+    font-family: 'Instrument serif', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.two p, .three p{
+    position: relative;
+    top: -40px;
+    left: -55px;
+    font-size: 13px;
+}
+.three{
+    width: 400px;
+    height: 190px;
+    position: relative;
+    top: -330px;
+    left: 580px;
+}
+.four{
+    width: 980px;
+    height: 230px;
+    position: relative;
+    top: -310px;
+}
+.one img{
+    background-color: transparent;
+    width: 250px;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.four img{
+    background-color: transparent;
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+.four h2{
+    position: relative;
+    top: 5px;
+    left:  25%;
+    font-size: 35px;
+}
+.four h5{
+    position: relative;
+    left: 45%;
+    top: -25px;
+    font-size: 18px;
+    font-family: 'Instrument serif', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.four p{
+    position: relative;
+    top: -40px;
+    left: 15%;
+    font-size: 14px;
+    text-align: center;
+}
+.fe{
+    background-color: transparent;
+    font-size: 160px;
+    color: #ffe0e0;
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+.text,.text h2, .text h5, .text p{
+    background-color: transparent;
+    color: #fff;
 }
