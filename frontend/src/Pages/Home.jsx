@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import '../assets/home.css';
 
 export function Home(){
+    const navigate = useNavigate();
     return (
         <div className="home">
             <div className="navbar">
@@ -9,7 +11,7 @@ export function Home(){
                 <a>Features</a>
                 <a>Contact</a>
                 <a>Check My Portfolio</a>
-                <button className='login'>Login</button>
+                <button className='login' onClick={()=>navigate('/login')}>Login</button>
                 <button>Try for free</button>
             </div>
             <h1>All your thoughts at <span>One Place</span> <br></br> without any cost.</h1>
