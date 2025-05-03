@@ -6,7 +6,7 @@ export function Login() {
   const navigate = useNavigate();
   return (
     <div className="form">
-      <h1>Welcome Back to Notely</h1>
+      <h1>Welcome Back to <span>Notely</span></h1>
       <h3>Please enter your details to login</h3>
       <form>
         <label>Email</label>

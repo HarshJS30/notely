@@ -43,12 +43,14 @@ Form input{
     position: relative;
     left: 6px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 Form button{
     border-radius: 8px;
     border: 1px solid #000;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 4px;
 }
 Form a{
     font-size: 12px;
@@ -93,6 +95,14 @@ Form p{
     font-weight: 300;
     font-size: 14px;
     position: relative;
-    left: 5px;
-    top: -65px;
+    left: 7px;
+    top: -70px;
+}
+.form span{
+    color: #fa828a;
+    background-color: transparent !important;
+    font-weight: 100;
+    font-family: 'Instrument Serif', sans-serif;
+    font-style: italic;
+    font-size: 25px;
 }
