@@ -39,12 +39,12 @@ export function Signup() {
     <div className="form">
       <h1>Welcome to<span>Notely</span></h1>
       <h3>Please enter your details to signup</h3>
-      <div className="error">{error}</div>
+      <div className="error"><p>{error}</p></div>
       <form>
         <label>Email</label>
-        <input type="email" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)}/>
+        <input type="email" placeholder="Enter your email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
         <label>Password</label>
-        <input type="password" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)}/>
+        <input type="password" placeholder="Enter your password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
         <button className="lgn" onClick={handleSubmit}>Sign in</button>
         <a onClick={()=>navigate('/login')}>Dont have an account? Click here</a>
         <hr className="hr1"/>

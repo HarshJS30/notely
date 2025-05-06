@@ -1,6 +1,6 @@
 .form{
     width: 400px;
-    height: 400px;
+    height: 470px;
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -8,8 +8,8 @@
     align-items: center;
     border-radius: 25px;
     position: relative;
-    top: 100px;
-    left: 400px;
+    top: 80px;
+    left: 450px;
 }
 .form h1{
     font-size: 22px;
@@ -105,4 +105,17 @@ Form p{
     font-family: 'Instrument Serif', sans-serif;
     font-style: italic;
     font-size: 25px;
+}
+.error p{
+    background-color: transparent;
+    color: red;
+    font-size: 14px;
+}
+.error{
+    background-color: transparent;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    top: -30px;
+    margin: 0;
 }
